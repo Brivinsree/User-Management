@@ -1,0 +1,22 @@
+{
+  "name": "usermanagement",
+  "version": "1.0.0",
+  "description": "User management System",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "env-cmd -f ./.env nodemon app.js",
+    "test": "test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "mongoose": "^8.8.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.7"
+  }
+}
